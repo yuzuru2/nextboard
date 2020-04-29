@@ -1,0 +1,11 @@
+[
+  {
+    "name": "next_server",
+    "instances": 1,
+    "script": "./server.js",
+    "exec_mode": "cluster_mode",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+]

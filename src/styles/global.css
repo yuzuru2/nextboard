@@ -1,0 +1,63 @@
+/* bootstrapの謎の右の余白を消す */
+#app {
+  overflow: hidden;
+}
+
+/* スマホ用バナー */
+.sumaho_banner {
+  display: none;
+}
+
+header {
+  background: rgb(255, 141, 153);
+}
+
+main {
+  background-color: rgb(250, 243, 234);
+  padding-top: 20px;
+  min-height: 100vh;
+}
+
+section {
+  width: 70%;
+  padding-left: 20px;
+}
+
+article {
+  width: 85%;
+  padding-right: 20px;
+}
+
+aside {
+  width: 30%;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  height: 50px;
+  background-color: rgb(255, 141, 153);
+}
+
+/* スマホ用 */
+@media screen and (max-width: 767px) {
+  section {
+    width: 100%;
+  }
+
+  aside {
+    display: none;
+  }
+
+  article {
+    width: 95%;
+  }
+
+  /* スマホ用バナー */
+  .sumaho_banner {
+    display: block;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+  }
+}
