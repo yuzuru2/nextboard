@@ -1,3 +1,4 @@
+process.env.TZ = 'Asia/Tokyo';
 import moment from 'moment';
 import { constant } from 'src/constant';
 
