@@ -7,7 +7,7 @@ export const constant = {
     production: ``,
   },
 
-  TITLE: 'nuxt掲示板',
+  TITLE: 'next掲示板',
 
   /**
    * リクエストヘッダー
