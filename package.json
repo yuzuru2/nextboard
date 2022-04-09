@@ -10,7 +10,7 @@
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "isomorphic-unfetch": "^3.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "next-on-netlify": "^1.2.0",
     "nprogress": "^0.2.0",
     "react": "^16.13.1",
